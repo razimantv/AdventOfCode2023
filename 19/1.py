@@ -1,5 +1,6 @@
 process = {}
 
+
 def accept(x, m, a, s):
     workflow = 'in'
     while workflow not in ['A', 'R']:
