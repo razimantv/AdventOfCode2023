@@ -1,5 +1,5 @@
-times = [61, 70, 90, 66]
-distances = [643, 1184, 1362, 1041]
+times = [61709066]
+distances = [643118413621041]
 
 ret = 1
 for time, distance in zip(times, distances):
