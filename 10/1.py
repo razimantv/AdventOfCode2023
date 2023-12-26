@@ -26,4 +26,7 @@ for i in range(m):
             par[parent((i, j))] = parent((i, j - 1))
 
 spar = parent(start)
-print(len([(i, j) for i in range(m) for j in range(m) if parent((i, j)) == spar]))
+print(len([
+    (i, j) for i in range(m) for j in range(m)
+    if parent((i, j)) == spar
+]))
