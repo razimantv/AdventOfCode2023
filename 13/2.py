@@ -47,4 +47,5 @@ with open('1.2.in') as file:
                 continue
             break
         cur = []
-        print(tot)
+
+print(tot)
