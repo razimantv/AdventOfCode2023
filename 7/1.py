@@ -9,7 +9,7 @@ with open('1.2.in') as file:
         hand, val = line[:-1].split(' ')
         hands.append([
             sorted(Counter(hand).values(), reverse=True),
-            [values[c]for c in hand], int(val)
+            [values[c] for c in hand], int(val)
         ])
 
 print(sum(

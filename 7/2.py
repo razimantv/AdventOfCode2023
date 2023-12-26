@@ -20,7 +20,6 @@ hands = []
 with open('1.2.in') as file:
     for line in file:
         hand, val = line[:-1].split(' ')
-        print(hand, best(hand))
         hands.append([
             best(hand), [values[c]for c in hand], int(val)
         ])
