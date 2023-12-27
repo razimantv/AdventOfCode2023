@@ -14,7 +14,7 @@
 
 **Problem Statement**: Find a constant-velocity straight line trajectory that will collide with all the particles.
 
-**Solution**: We have 6 unknowns: 3 coordinates and 3 velocity components. For every intersection with a particle, we get an additional unknown (intersection time). Solving simultaneously for 3 particles gives us a system of 9 equations (one per coordinate for each particle) and 9 unknowns. Unfortunately the equation is nonlinear, so use Sage to solve it.
+**Solution**: We have 6 unknowns: 3 coordinates and 3 velocity components. For every intersection with a particle, we get an additional unknown (intersection time). Solving simultaneously for 3 particles gives us a system of 9 equations (one per coordinate for each particle) and 9 unknowns. Unfortunately the equation is nonlinear, so use [Sagemath](https://www.sagemath.org/) to solve it.
 
 [**Code**](2.py)
 
