@@ -31,3 +31,7 @@ I have shared my python code to solve all the problems, along with the explanati
 * [Problem 25](25) (⭐)
 
 Please raise an issue if you want further clarifications for some solution or need explanations for something I have done in some code.
+
+## Other years
+
+* [2024](https://github.com/razimantv/AdventOfCode2024)
